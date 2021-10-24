@@ -5,7 +5,7 @@
  * O(n^2) time | O(1) space
  *
  * @param array     $array     The input array.
- * @param targetSum $targetSum The target number.
+ * @param int $targetSum The target number.
  *
  * @return array
  */
@@ -29,7 +29,7 @@ function twoNumberSum1($array, $targetSum)
  * O(n^2) time | O(1) space
  *
  * @param array     $array     The input array.
- * @param targetSum $targetSum The target number.
+ * @param int $targetSum The target number.
  *
  * @return array
  */
@@ -53,7 +53,7 @@ function twoNumberSum2($array, $targetSum)
  * O(n log(n)) | O(1) space
  *
  * @param array     $array     The input array.
- * @param targetSum $targetSum The target number.
+ * @param int $targetSum The target number.
  *
  * @return array
  */
@@ -81,7 +81,7 @@ function twoNumberSum3($array, $targetSum)
  * // O(n) | O(n) space
  *
  * @param array     $array     The input array.
- * @param targetSum $targetSum The target number.
+ * @param int $targetSum The target number.
  *
  * @return array
  */
@@ -105,7 +105,7 @@ function twoNumberSum4($array, $targetSum)
  * // O(n) | O(n) space
  *
  * @param array     $array     The input array.
- * @param targetSum $targetSum The target number.
+ * @param int $targetSum The target number.
  *
  * @return array
  */
