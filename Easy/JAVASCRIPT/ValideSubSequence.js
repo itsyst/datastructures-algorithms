@@ -34,7 +34,7 @@ function isValidSubsequence3(array, sequence) {
       return;
   });
 
-  return sequenceIndex == sequence.length;
+  return sequenceIndex === sequence.length;
 }
 
 var array = [5, 1, 22, 25, 6, -1, 8, 10];
