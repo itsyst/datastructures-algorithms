@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khale\\OneDrive\\Documents\\AlgoExpert\\Easy\\C#\\c#.csproj": {}
+    "C:\\Users\\khale\\OneDrive\\Documents\\datastructures-algorithms\\Easy\\C#\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khale\\OneDrive\\Documents\\AlgoExpert\\Easy\\C#\\c#.csproj": {
+    "C:\\Users\\khale\\OneDrive\\Documents\\datastructures-algorithms\\Easy\\C#\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khale\\OneDrive\\Documents\\AlgoExpert\\Easy\\C#\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\khale\\OneDrive\\Documents\\datastructures-algorithms\\Easy\\C#\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Users\\khale\\OneDrive\\Documents\\AlgoExpert\\Easy\\C#\\c#.csproj",
+        "projectPath": "C:\\Users\\khale\\OneDrive\\Documents\\datastructures-algorithms\\Easy\\C#\\c#.csproj",
         "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khale\\OneDrive\\Documents\\AlgoExpert\\Easy\\C#\\obj\\",
+        "outputPath": "C:\\Users\\khale\\OneDrive\\Documents\\datastructures-algorithms\\Easy\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
