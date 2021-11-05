@@ -19,9 +19,28 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(result);
 
             // Sorted Squared Array
-            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            int[] result = SortedSquaredArrays.SortedSquaredArray3(array);
-            Console.WriteLine("[{0}]", string.Join(", ", result));
+            // int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            // int[] result = SortedSquaredArrays.SortedSquaredArray3(array);
+            // Console.WriteLine("[{0}]", string.Join(", ", result));
+
+            // Tournament Winner
+            List<List<string>> competitions = new List<List<string>> {
+                new List<string>{"HTML", "Java" },
+                new List<string>{"Java", "Python" },
+                new List<string>{"Python", "HTML" },
+                new List<string>{"C#", "Python" },
+                new List<string>{"Java", "C#" },
+                new List<string>{"C#", "HTML" },
+                new List<string>{"SQL", "C#" },
+                new List<string>{"HTML", "SQL"},
+                new List<string>{"SQL", "Python" },
+                new List<string>{"SQL", "Java" }
+            };
+
+            List<int> results = new List<int> { 0, 1, 1, 1, 0, 1, 0, 1, 1, 0 };
+            string result = TournamentWinner.TournamentWinner1(competitions, results);
+            Console.WriteLine("{0}", string.Join(", ", result));
+
         }
     }
 }
