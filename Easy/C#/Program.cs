@@ -46,7 +46,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("{0}", string.Join(", ", result));*/
 
             // Find Closest Value In BST        
-            var tree = new BSTree();
+            /*var tree = new BSTree();
             var values = new int[] { 10, 5, 2, 1, 5, 15, 13, 14, 22 };
             foreach (var value in values)
             {
@@ -54,7 +54,23 @@ namespace MyApp // Note: actual namespace depends on the project name.
             }
 
             var result = tree.FindClosestValueInBST(tree.root, 21);
-            Console.WriteLine("Closest Value: " + result);
+            Console.WriteLine("Closest Value: " + result);*/
+
+            // Branchs sum of binary tree
+            var tree = new BTree();
+            tree.root = new Node(1);
+            tree.root.left = new Node(2);
+            tree.root.left.left = new Node(4);
+            tree.root.left.right = new Node(5);
+            tree.root.left.right.left = new Node(10);
+            tree.root.left.left.left = new Node(8);
+            tree.root.left.left.right = new Node(9);
+            tree.root.right = new Node(3);
+            tree.root.right.left = new Node(6);
+            tree.root.right.right = new Node(7);
+
+            var sums = tree.BranchSums(tree.root);
+            Console.WriteLine("{0}", string.Join(", ", sums)); 
 
 
         }
