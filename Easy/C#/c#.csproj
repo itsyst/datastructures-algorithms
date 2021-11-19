@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>c_</RootNamespace>
-    <Nullable>enable</Nullable>
+    <!-- <Nullable>enable</Nullable> -->
   </PropertyGroup>
 
 </Project>
