@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more informationusing System;
-
 namespace MyApp // Note: actual namespace depends on the project name.
 {
     public class Program
@@ -42,9 +41,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("{0}", string.Join(", ", result));*/
 
             // Non - Constructible change
-            int[] coins = new int[] { 1, 2, 5 };
+            /*int[] coins = new int[] { 1, 2, 5 };
             int result = NonConstructibleChange.NonConstructibleChanges(coins);
-            Console.WriteLine("{0}", string.Join(", ", result));
+            Console.WriteLine("{0}", string.Join(", ", result));*/
+
+            // Find Closest Value In BST        
+            var tree = new BSTree();
+            var values = new int[] { 10, 5, 2, 1, 5, 15, 13, 14, 22 };
+            foreach (var value in values)
+            {
+                tree.insert(value);
+            }
+
+            var result = tree.FindClosestValueInBST(tree.root, 21);
+            Console.WriteLine("Closest Value: " + result);
+
 
         }
     }
