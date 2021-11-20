@@ -13,10 +13,10 @@ function branchSum(node) {
 }
 
 function branchSumHelper(node, currentSum, sum) {
-    if (node == null) return;
+    if (!node) return;
 
     let endSum = currentSum + node.value;
-    if (node.left == null && node.right == null) {
+    if (!node.left && !node.right) {
         sum.push(endSum);
         return;
     }
