@@ -73,7 +73,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine("{0}", string.Join(", ", sums));
 
             // Nodes Depth Sum
-            var tree = new NodesDepthSum();
+            /*var tree = new NodesDepthSum();
             tree.root = new NodesDepthSum.Node(1);
             tree.root.left = new NodesDepthSum.Node(2);
             tree.root.left.left = new NodesDepthSum.Node(4);
@@ -86,7 +86,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             ///var result = tree.nodeDepthSum(tree.root);
             var result = tree.nodeDepthSumIterator(tree.root);
-            Console.WriteLine(result);
+            Console.WriteLine(result);*/
+
+            // Depth First Search
+            var graph = new Graph.Node("A");
+            graph.AddChild("B").AddChild("C").AddChild("D");
+            graph.children[0].AddChild("E").AddChild("F");
+            graph.children[0].children[1].AddChild("I").AddChild("J");
+            graph.children[2].AddChild("G").AddChild("H");
+            graph.children[2].children[0].AddChild("K");
+
+            var result = graph.DepthFirstSearch(graph);
+            Console.WriteLine("{0}", string.Join(", ", result)); 
         }
     }
 }
