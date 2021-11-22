@@ -84,7 +84,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             tree.root.right.left = new NodesDepthSum.Node(6);
             tree.root.right.right = new NodesDepthSum.Node(7);
 
-            var result = tree.nodeDepthSum(tree.root);
+            ///var result = tree.nodeDepthSum(tree.root);
+            var result = tree.nodeDepthSumIterator(tree.root);
             Console.WriteLine(result);
         }
     }
