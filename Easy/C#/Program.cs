@@ -89,15 +89,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine(result);*/
 
             // Depth First Search
-            var graph = new Graph.Node("A");
-            graph.AddChild("B").AddChild("C").AddChild("D");
-            graph.children[0].AddChild("E").AddChild("F");
-            graph.children[0].children[1].AddChild("I").AddChild("J");
-            graph.children[2].AddChild("G").AddChild("H");
-            graph.children[2].children[0].AddChild("K");
+            // var graph = new Graph.Node("A");
+            // graph.AddChild("B").AddChild("C").AddChild("D");
+            // graph.children[0].AddChild("E").AddChild("F");
+            // graph.children[0].children[1].AddChild("I").AddChild("J");
+            // graph.children[2].AddChild("G").AddChild("H");
+            // graph.children[2].children[0].AddChild("K");
 
-            var result = graph.DepthFirstSearch(graph);
-            Console.WriteLine("{0}", string.Join(", ", result)); 
+            // var result = graph.DepthFirstSearch(graph);
+            // Console.WriteLine("{0}", string.Join(", ", result)); 
+
+            //Minimum waiting Time
+            int[] queries = new int[] {17, 4, 3 };
+            var time = WaitingTime.MinimumWaitingTime2(queries);
+            Console.WriteLine(time);
         }
     }
 }
