@@ -100,9 +100,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine("{0}", string.Join(", ", result)); 
 
             //Minimum waiting Time
-            int[] queries = new int[] {17, 4, 3 };
-            var time = WaitingTime.MinimumWaitingTime2(queries);
-            Console.WriteLine(time);
+            // int[] queries = new int[] {17, 4, 3 };
+            // var time = WaitingTime.MinimumWaitingTime2(queries);
+            // Console.WriteLine(time);
+
+            // Class Photos
+            var redRow = new List<int> { 19, 19, 21, 1, 1, 1, 1, 1 };
+            var blueRow = new List<int> { 20, 5, 4, 4, 4, 4, 4, 4 };
+            var result = RangeStudents.RowRange(redRow, blueRow);
+            Console.WriteLine("{0}", string.Join(", ", result));
         }
     }
 }
