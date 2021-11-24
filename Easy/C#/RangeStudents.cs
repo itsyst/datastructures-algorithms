@@ -4,20 +4,23 @@ class RangeStudents
     {
         redRow.Sort((a, b) => b.CompareTo(a));
         blueRow.Sort((a, b) => b.CompareTo(a));
- 
-        for(int i = 0; i < redRow.Count; i++)
+
+
+        for (int i = 0; i < redRow.Count; i++)
         {
-            if(redRow[0] > blueRow[0]){
-                if(redRow[i] <=blueRow[i])
+            if (redRow[0] > blueRow[0])
+            {
+                if (redRow[i] <= blueRow[i])
                     return false;
             }
-            if (redRow[0] < blueRow[0])
+            else
             {
                 if (redRow[i] >= blueRow[i])
                     return false;
             }
         }
-      
+
+
         return true;
     }
 }
