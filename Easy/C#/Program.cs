@@ -105,9 +105,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(time);
 
             // Class Photos
-            var redRow = new List<int> { 19, 19, 21, 1, 1, 1, 1, 1 };
-            var blueRow = new List<int> { 20, 5, 4, 4, 4, 4, 4, 4 };
-            var result = RangeStudents.RowRange(redRow, blueRow);
+            // var redRow = new List<int> { 19, 19, 21, 1, 1, 1, 1, 1 };
+            // var blueRow = new List<int> { 20, 5, 4, 4, 4, 4, 4, 4 };
+            // var result = RangeStudents.RowRange(redRow, blueRow);
+            // Console.WriteLine("{0}", string.Join(", ", result));
+
+            // Tandem Bicycle.
+            var redTeam = new int[] {3, 4, 4, 1, 1, 8, 9 };
+            var blueTeam = new int[] {9, 8, 2, 2, 3, 5, 6 };
+            var fastest = false;
+            var result = TotalSpeedBicycle.TandemBicycle(redTeam, blueTeam, fastest);
             Console.WriteLine("{0}", string.Join(", ", result));
         }
     }
