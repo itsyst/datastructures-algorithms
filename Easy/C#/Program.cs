@@ -111,11 +111,38 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine("{0}", string.Join(", ", result));
 
             // Tandem Bicycle.
-            var redTeam = new int[] {3, 4, 4, 1, 1, 8, 9 };
-            var blueTeam = new int[] {9, 8, 2, 2, 3, 5, 6 };
-            var fastest = false;
-            var result = TotalSpeedBicycle.TandemBicycle(redTeam, blueTeam, fastest);
-            Console.WriteLine("{0}", string.Join(", ", result));
+            // var redTeam = new int[] {3, 4, 4, 1, 1, 8, 9 };
+            // var blueTeam = new int[] {9, 8, 2, 2, 3, 5, 6 };
+            // var fastest = false;
+            // var result = TotalSpeedBicycle.TandemBicycle(redTeam, blueTeam, fastest);
+            // Console.WriteLine("{0}", string.Join(", ", result));
+
+            // Remove Duplicates From LinkedList
+            // var node = new LinkedList.Node(1);
+            // node.next = new LinkedList.Node(3);
+            // node.next.next = new LinkedList.Node(4);
+            // node.next.next.next = new LinkedList.Node(4);
+            // node.next.next.next.next = new LinkedList.Node(4);
+            // node.next.next.next.next.next = new LinkedList.Node(5);
+            // node.next.next.next.next.next.next = new LinkedList.Node(6);
+            // node.next.next.next.next.next.next.next = new LinkedList.Node(6);
+
+            // var ldList = new LinkedList();
+            // var nodes = ldList.getNodes(node);
+            // Console.WriteLine("{0}", string.Join(", ", nodes));
+            // var removed = ldList.GetUniqueNodesFromLinkedList(node);
+            //  Console.WriteLine("{0}", string.Join(", ", removed));
+
+            LinkedList linkedList = new LinkedList();
+            LinkedList.Node input = new LinkedList.Node(1);
+            List<int> values = new List<int> { 12,12 };
+            LinkedList.Node nodes = linkedList.addMany(input, values);
+
+            linkedList.RemoveDuplicatesFromLinkedList(input);
+
+            var removed = linkedList.getNodes(input);
+            Console.Write("{0} ", string.Join(", ", removed));
+         
         }
     }
 }
