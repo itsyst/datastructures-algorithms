@@ -10,6 +10,11 @@ class LinkedList
             this.value = value;
             this.next = null;
         }
+
+        public override string ToString()
+        {
+            return "" + value;
+        }
     }
 
     // O(n) time | O(1) space n  is the number of nodes in the linkedlist 
@@ -55,8 +60,8 @@ class LinkedList
     public Node RemoveDuplicatesFromLinkedList(Node node)
     {
         Node current = node;
-        while(current.next!=null){
-            var nextUniqueNode = current.next;
+        while(current != null && current.next != null){
+            Node nextUniqueNode = current.next;
             while(nextUniqueNode != null && nextUniqueNode.value == current.value){
                 nextUniqueNode = nextUniqueNode.next;
             }
