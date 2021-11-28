@@ -133,16 +133,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // var removed = ldList.GetUniqueNodesFromLinkedList(node);
             //  Console.WriteLine("{0}", string.Join(", ", removed));
 
-            LinkedList linkedList = new LinkedList();
-            LinkedList.Node input = new LinkedList.Node(1);
-            List<int> values = new List<int> { 12,12 };
-            LinkedList.Node nodes = linkedList.addMany(input, values);
+            // LinkedList linkedList = new LinkedList();
+            // LinkedList.Node input = new LinkedList.Node(1);
+            // List<int> values = new List<int> { 12,12 };
+            // LinkedList.Node nodes = linkedList.addMany(input, values);
 
-            linkedList.RemoveDuplicatesFromLinkedList(input);
+            // linkedList.RemoveDuplicatesFromLinkedList(input);
 
-            var removed = linkedList.getNodes(input);
-            Console.Write("{0} ", string.Join(", ", removed));
-         
+            // var removed = linkedList.getNodes(input);
+            // Console.Write("{0} ", string.Join(", ", removed));
+
+            // Nth Fibonacci
+            var value = Fibonacci.GetNthFib(0);
+            Console.WriteLine(value);
+            
+
         }
     }
 }
