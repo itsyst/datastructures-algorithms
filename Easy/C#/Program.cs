@@ -144,9 +144,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.Write("{0} ", string.Join(", ", removed));
 
             // Nth Fibonacci
-            var value = Fibonacci.GetNthFib(0);
-            Console.WriteLine(value);
-            
+            // var value = Fibonacci.GetNthFib(0);
+            // Console.WriteLine(value);
+
+            // Product Sum
+            List<object> numbers = new List<object>{ 
+                5,2,new List<object>{7,-1}, 3,new List<object>{6, new List<object>{-13,8},4}
+            };
+            int result = ProductSum.ProductSummation(numbers);
+            Console.WriteLine(result);
+
 
         }
     }
