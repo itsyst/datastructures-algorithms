@@ -155,16 +155,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(result);
 
             // Binary Search Tree
-            int[] array = new int[] { 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
-            var tree = new BinarySearchTree();
-            foreach (var item in array)
-            {
-                tree.insert(item);
-            }
-            //var result = tree.indexOf(33);
-            //var result = tree.BinarySearch(array,83);
-            var result = tree.BinarySearchRec(array, 33);
-            Console.WriteLine(result);
+            // int[] array = new int[] { 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
+            // var tree = new BinarySearchTree();
+            // foreach (var item in array)
+            // {
+            //     tree.insert(item);
+            // }
+            // //var result = tree.indexOf(33);
+            // //var result = tree.BinarySearch(array,83);
+            // var result = tree.BinarySearchRec(array, 33);
+            // Console.WriteLine(result);
+
+            // Find Three Largest Numbers
+            int[] numbers = new int[] { 141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7 };
+            int[] result = ThreeLargestNumbers.FindThreeLargetNumbers(numbers);
+            System.Console.WriteLine("{0}", string.Join(", ", result));
 
 
         }
