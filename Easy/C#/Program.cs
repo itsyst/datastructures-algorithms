@@ -148,10 +148,22 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(value);
 
             // Product Sum
-            List<object> numbers = new List<object>{ 
-                5,2,new List<object>{7,-1}, 3,new List<object>{6, new List<object>{-13,8},4}
-            };
-            int result = ProductSum.ProductSummation(numbers);
+            // List<object> numbers = new List<object>{ 
+            //     5,2,new List<object>{7,-1}, 3,new List<object>{6, new List<object>{-13,8},4}
+            // };
+            // int result = ProductSum.ProductSummation(numbers);
+            // Console.WriteLine(result);
+
+            // Binary Search Tree
+            int[] array = new int[] { 0, 1, 21, 33, 45, 45, 61, 71, 72, 73 };
+            var tree = new BinarySearchTree();
+            foreach (var item in array)
+            {
+                tree.insert(item);
+            }
+            //var result = tree.indexOf(33);
+            //var result = tree.BinarySearch(array,83);
+            var result = tree.BinarySearchRec(array, 33);
             Console.WriteLine(result);
 
 
