@@ -65,7 +65,7 @@ class BinarySearchTree
         return -1;
     }
 
-    // O(log(n)) time | O(log(n)) space
+    // O(log(n)) time | O(1) space
     public int BinarySearch(int[] array, int target)
     {
         int left = 0;
@@ -84,7 +84,7 @@ class BinarySearchTree
         return -1;
     }
 
-    // O(log(n)) time | O(1) space
+    // O(log(n)) time | O(log(n)) space
     public int BinarySearchRec(int[] array, int target)
     {
         return BinarySearchRecHelper(array, target, 0, array.Length - 1);
