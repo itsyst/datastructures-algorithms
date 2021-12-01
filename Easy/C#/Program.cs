@@ -180,14 +180,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // int[] numbers = new int[] { 141, 0, 12, -1, -10, -27, 18, 233, 8, 7, 7 };
             // int[] result = InsertionSort.Sort(numbers);
             // System.Console.WriteLine("{0}", string.Join(", ", result));
-           
+
             //Selection  Sort
-            int[] numbers = new int[] { 141, 0, 12, -1, -10, -27, 18, 233, 8, 7, 7 };
-            int[] result = SelectionSort.Sort(numbers);
-            System.Console.WriteLine("{0}", string.Join(", ", result));
+            // int[] numbers = new int[] { 141, 0, 12, -1, -10, -27, 18, 233, 8, 7, 7 };
+            // int[] result = SelectionSort.Sort(numbers);
+            // System.Console.WriteLine("{0}", string.Join(", ", result));
 
-
-
+            // Palindrome string check
+            String str = "123321";
+            Boolean result = PalindromeCheck.IsPalindrome5(str);
+            System.Console.WriteLine(result);
         }
     }
 }
