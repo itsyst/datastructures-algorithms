@@ -172,8 +172,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // System.Console.WriteLine("{0}", string.Join(", ", result));
 
             //Bubble Sort
+            // int[] numbers = new int[] { 141, 0, 12, -1, -10, -27, 18, 233, 8, 7, 7 };
+            // int[] result = BubbleSort.Sort(numbers);
+            // System.Console.WriteLine("{0}", string.Join(", ", result));
+
+            //Insertion  Sort
             int[] numbers = new int[] { 141, 0, 12, -1, -10, -27, 18, 233, 8, 7, 7 };
-            int[] result = BubbleSort.Sort(numbers);
+            int[] result = InsertionSort.Sort(numbers);
             System.Console.WriteLine("{0}", string.Join(", ", result));
 
 
