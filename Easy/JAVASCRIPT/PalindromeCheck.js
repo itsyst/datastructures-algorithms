@@ -25,7 +25,7 @@ function isPalindrome3(str) {
     for (let i = str.length - 1; i >= 0; i--)
     input.push(str.charAt(i));
 
-    return str === input;
+    return str === input.join('');
 }
 
     // O(n) time | O(n) space
@@ -57,5 +57,5 @@ function isPalindrome5(str) {
 }
 
 const str = "1234321";
-const result = isPalindrome5(str);
+const result = isPalindrome3(str);
 console.log(result);
