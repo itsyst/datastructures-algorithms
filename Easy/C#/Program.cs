@@ -187,9 +187,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // System.Console.WriteLine("{0}", string.Join(", ", result));
 
             // Palindrome string check
-            String str = "123321";
-            Boolean result = PalindromeCheck.IsPalindrome5(str);
-            System.Console.WriteLine(result);
+            // String str = "123321";
+            // Boolean result = PalindromeCheck.IsPalindrome5(str);
+            // System.Console.WriteLine(result);
+
+            // Caesar Cipher Encryption
+            string str = "xyz";
+            string result = CaesarCipherEncryption.Encrypt(str,1);
+            Console.WriteLine(result);
         }
     }
 }
