@@ -57,7 +57,7 @@ class PalindromeCheck
 
 
     // O(n) time | O(1) space
-    public static bool IsPalindrome6(String str)
+    public static bool IsPalindrome5(String str)
     {
         if (str == null)
             return false;
