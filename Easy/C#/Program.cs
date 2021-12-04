@@ -192,8 +192,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // System.Console.WriteLine(result);
 
             // Caesar Cipher Encryption
-            string str = "xyz";
-            string result = CaesarCipherEncryption.Encrypt(str,1);
+            // string str = "xyz";
+            // string result = CaesarCipherEncryption.Encrypt(str,1);
+            // Console.WriteLine(result);
+
+            // Run Length Encoding
+            string str = "AAAAAAAAAAAAABBCCCCDD";
+            string result = RunLengthEncoding.RunEncoding(str);
             Console.WriteLine(result);
         }
     }
