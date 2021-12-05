@@ -197,8 +197,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(result);
 
             // Run Length Encoding
-            string str = "AAAAAAAAAAAAABBCCCCDD";
-            string result = RunLengthEncoding.RunEncoding(str);
+            // string str = "AAAAAAAAAAAAABBCCCCDD";
+            // string result = RunLengthEncoding.RunEncoding(str);
+            // Console.WriteLine(result);
+
+            // Generate Document
+            string characters = "aheaolblabal";
+            string document = "hello";
+            var result = GenerateDocuments.GenerateDocument(characters, document);
             Console.WriteLine(result);
         }
     }
