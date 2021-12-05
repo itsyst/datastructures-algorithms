@@ -203,8 +203,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             // Generate Document
             string characters = "aheaol";
-            string document = "";
-            var result = GenerateDocuments.GenerateDocument(characters, document);
+            string document = "hello";
+            var result = GenerateDocuments.GenerateDocument2(characters, document);
             Console.WriteLine(result);
         }
     }
