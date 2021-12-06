@@ -202,9 +202,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(result);
 
             // Generate Document
-            string characters = "aheaol";
-            string document = "hello";
-            var result = GenerateDocuments.GenerateDocument2(characters, document);
+            // string characters = "aheaol";
+            // string document = "hello";
+            // var result = GenerateDocuments.GenerateDocument2(characters, document);
+            // Console.WriteLine(result);
+
+            // First Non Repeating Character 
+            string str = "faad*^?abcbb*?ebdf";
+            var result = FirstNonRepeatedCharacter.FirstNonRepeatingCharacter1(str);
             Console.WriteLine(result);
         }
     }
