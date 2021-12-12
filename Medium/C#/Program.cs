@@ -17,10 +17,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // }
 
             // Get the Smallest Diffrance
-            int[] one = new int[] {10, 1000, 9124, 2142, 59, 24, 596, 591, 124, -123, 530 };
-            int[] two = new int[] { -1441, -124, -25, 1014, 1500, 660, 410, 245, 530 };
-            int[] result = SmallestDifference.SmallestDifferences2(one, two);
-            Console.WriteLine("{0}", string.Join(", ", result));
+            // int[] one = new int[] {10, 1000, 9124, 2142, 59, 24, 596, 591, 124, -123, 530 };
+            // int[] two = new int[] { -1441, -124, -25, 1014, 1500, 660, 410, 245, 530 };
+            // int[] result = SmallestDifference.SmallestDifferences2(one, two);
+            // Console.WriteLine("{0}", string.Join(", ", result));
+
+            // Move Element To End
+            List<int> array = new List<int>(){ 2, 1, 2, 2, 2, 3, 4, 2};
+            int toMove = 2;
+            var result = MoveElementToTheEnd.MoveElementToEnd(array, toMove);
+            System.Console.WriteLine("{0}", string.Join(", ", result));
         }
     }
 }
