@@ -23,10 +23,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine("{0}", string.Join(", ", result));
 
             // Move Element To End
-            List<int> array = new List<int>(){ 2, 1, 2, 2, 2, 3, 4, 2};
-            int toMove = 2;
-            var result = MoveElementToTheEnd.MoveElementToEnd(array, toMove);
-            System.Console.WriteLine("{0}", string.Join(", ", result));
+            // List<int> array = new List<int>(){ 2, 1, 2, 2, 2, 3, 4, 2};
+            // int toMove = 2;
+            // var result = MoveElementToTheEnd.MoveElementToEnd(array, toMove);
+            // System.Console.WriteLine("{0}", string.Join(", ", result));
+
+            // Monotonic Array
+            int[] array = new int[] { -1, -5, -10, -1100, -1100, -1101, -1102, -9001 };
+            var result = MonotonicArray.IsMonotonic(array);
+            System.Console.WriteLine(result);
         }
     }
 }
