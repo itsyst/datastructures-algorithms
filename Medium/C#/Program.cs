@@ -29,9 +29,19 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // System.Console.WriteLine("{0}", string.Join(", ", result));
 
             // Monotonic Array
-            int[] array = new int[] { -1, -5, -10, -1100, -1100, -1101, -1102, -9001 };
-            var result = MonotonicArray.IsMonotonic(array);
-            System.Console.WriteLine(result);
+            // int[] array = new int[] { -1, -5, -10, -1100, -1100, -1101, -1102, -9001 };
+            // var result = MonotonicArray.IsMonotonic(array);
+            // System.Console.WriteLine(result);
+
+            // Spiral Traverse
+            int[,] matrix = {
+                {1, 2, 3, 4},
+                {12, 13, 14, 5},
+                {11, 16, 15, 6},
+                {10, 9, 8, 7},
+            };
+            List<int> result = SpiralTraverse.MatrixTraverse(matrix);
+            System.Console.WriteLine("{0}", string.Join(", ", result));
         }
     }
 }
