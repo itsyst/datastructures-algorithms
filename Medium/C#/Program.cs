@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more informationusing System;
+using System;
+
 namespace MyApp // Note: actual namespace depends on the project name.
 {
     public class Program
@@ -34,14 +36,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // System.Console.WriteLine(result);
 
             // Spiral Traverse
-            int[,] matrix = {
-                {1, 2, 3, 4},
-                {12, 13, 14, 5},
-                {11, 16, 15, 6},
-                {10, 9, 8, 7},
-            };
-            List<int> result = SpiralTraverse.MatrixTraverse(matrix);
-            System.Console.WriteLine("{0}", string.Join(", ", result));
+            // int[,] matrix = {
+            //     {1, 2, 3, 4},
+            //     {12, 13, 14, 5},
+            //     {11, 16, 15, 6},
+            //     {10, 9, 8, 7},
+            // };
+            // List<int> result = SpiralTraverse.MatrixTraverse(matrix);
+            // System.Console.WriteLine("{0}", string.Join(", ", result));
+
+
+            // Longest Peak
+            int[] array = new int[] { 1, 3, 2 };
+            int result = LongestPeaks.LongestPeak2(array);
+            Console.WriteLine(result);
+
         }
     }
 }
