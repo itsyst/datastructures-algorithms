@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class MoveElementToTheEnd
 {
     // O(n) time | O(1) space

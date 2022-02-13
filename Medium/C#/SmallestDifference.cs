@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 class SmallestDifference
 {
     // O(n^2) time | O(1) space

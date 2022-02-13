@@ -48,7 +48,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             // Longest Peak
             int[] array = new int[] { 1, 3, 2 };
-            int result = LongestPeaks.LongestPeak2(array);
+            int result = LongestPeaks.LongestPeak1(array);
             Console.WriteLine(result);
 
         }
