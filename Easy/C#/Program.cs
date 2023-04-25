@@ -208,9 +208,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Console.WriteLine(result);
 
             // First Non Repeating Character 
-            string str = "faad*^?abcbb*?ebdf";
-            var result = FirstNonRepeatedCharacter.FirstNonRepeatingCharacter1(str);
-            Console.WriteLine(result);
+            // string str = "faad*^?abcbb*?ebdf";
+            // var result = FirstNonRepeatedCharacter.FirstNonRepeatingCharacter1(str);
+            // Console.WriteLine(result);
+
+            //Evaluate Expression Tree
+            
         }
     }
 }
