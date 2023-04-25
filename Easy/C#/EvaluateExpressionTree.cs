@@ -1,4 +1,4 @@
-public class EvaluateExpression
+public class EvaluateExpressionTree
 {
     public class BinaryTree
     {
@@ -7,10 +7,10 @@ public class EvaluateExpression
         public BinaryTree(int value) { this.value = value; }
     }
 
-    public int EvaluateExpressionTree(BinaryTree tree)
+    public int EvaluateExpressionTrees(BinaryTree tree)
     {
         return tree.left == null && tree.right == null ? tree.value :
-               Eval(tree.value, EvaluateExpressionTree(tree.left), EvaluateExpressionTree(tree.right));
+               Eval(tree.value, EvaluateExpressionTrees(tree.left), EvaluateExpressionTrees(tree.right));
     }
 
     private static int Eval(int op, int left, int right)
