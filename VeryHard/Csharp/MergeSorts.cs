@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class MergeSorts
 {
     public static int[] MergeSort(int[] array)
     {
