@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 class LinkedList
 {// This is an input class. Do not edit.
     public class Node

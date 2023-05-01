@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class ProductSum
 {
     public static int ProductSummation(List<object> array)

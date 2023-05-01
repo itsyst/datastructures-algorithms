@@ -1,3 +1,5 @@
+using System;
+
 public static class WaitingTime
 {
     public static int MinimumWaitingTime(int[] queries)

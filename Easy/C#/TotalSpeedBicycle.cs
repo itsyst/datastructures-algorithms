@@ -1,3 +1,5 @@
+using System;
+
 class TotalSpeedBicycle
 {
     public static int TandemBicycle(int[] redTeam, int[] blueTeam, bool fastest)

@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 class RangeStudents
 {
     public static Boolean RowRange(List<int> redRow, List<int> blueRow)

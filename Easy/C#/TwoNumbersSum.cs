@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class TwoNumbersSum
 {
   public static int[] TwoNumberSum1(int[] array, int targetSum)

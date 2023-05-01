@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class GenerateDocuments
 {
     // O(n+m) time | O(c) space

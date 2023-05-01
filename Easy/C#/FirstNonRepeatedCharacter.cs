@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class FirstNonRepeatedCharacter
 {
     public static int FirstNonRepeatingCharacter2(string str)

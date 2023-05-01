@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 class TournamentWinner
 {
     // O(n) time | O(m) space where n is the number of competitions 
