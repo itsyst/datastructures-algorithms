@@ -3,7 +3,7 @@ using System;
 public class BestSeat
 {
 
-    public int BestSeat(int[] seats)
+    public int BestSeats(int[] seats)
     {
         int bestSeat = -1;
         int maxSpace = 0;

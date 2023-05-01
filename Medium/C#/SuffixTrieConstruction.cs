@@ -17,7 +17,7 @@ public class SuffixTrieConstruction
         public TrieNode root = new TrieNode();
         public char endSymbol = '*';
 
-        public SuffixTries(string str)
+        public SuffixTrie(string str)
         {
             PopulateSuffixTrieFrom(str);
         }

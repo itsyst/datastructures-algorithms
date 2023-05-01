@@ -1,13 +1,13 @@
 using System;
 
-public class ValidateBST
+public class Program
 {
-    public static bool ValidateBsts(BST tree)
+    public static bool ValidateBST(BST tree)
     {
-        return ValidateBst(tree, int.MinValue, int.MaxValue);
+        return ValidateBST(tree, int.MinValue, int.MaxValue);
     }
 
-    private static bool ValidateBsts(BST node, int minValue, int maxValue)
+    private static bool ValidateBST(BST node, int minValue, int maxValue)
     {
         if (node == null)
             return true;
@@ -15,8 +15,8 @@ public class ValidateBST
         if (node.value < minValue || node.value >= maxValue)
             return false;
 
-        bool isLeftValid = ValidateBsts(node.left, minValue, node.value);
-        bool isRightValid = ValidateBsts(node.right, node.value, maxValue);
+        bool isLeftValid = ValidateBST(node.left, minValue, node.value);
+        bool isRightValid = ValidateBST(node.right, node.value, maxValue);
 
         return isLeftValid && isRightValid;
     }
