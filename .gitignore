@@ -1,20 +1,20 @@
 // VSCODE
 
 .vscode
-Easy/C#/bin/
-Easy/C#/obj/
+Easy/C#/bin/*
+Easy/C#/obj/*
 Easy/JAVA/*.class
 
 
-Medium/C#/bin/
-Medium/C#/obj/
+Medium/C#/bin/*
+Medium/C#/obj/*
 Medium/JAVA/*.class
 
-Hard/C#/bin/
-Hard/C#/obj/
+Hard/C#/bin/*
+Hard/C#/obj/*
 Hard/JAVA/*.class
 
-VeryHard/C#/bin/
-VeryHard/C#/obj/
+VeryHard/Csharp/bin/*
+VeryHard/Csharp/obj/*
 VeryHard/JAVA/*.class
 
