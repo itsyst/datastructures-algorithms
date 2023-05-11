@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class FindSuccessor
 {
     // This is an input class. Do not edit.
     public class BinaryTree
