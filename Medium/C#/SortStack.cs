@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-public class Program
+public class SortStacks
 {
     public List<int> SortStack(List<int> stack)
     {
