@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class ValidateBSTs
 {
     public static bool ValidateBST(BST tree)
     {

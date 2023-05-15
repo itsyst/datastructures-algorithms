@@ -16,7 +16,7 @@ public class FindSuccessor
         }
     }
 
-    public BinaryTree FindSuccessor(BinaryTree tree, BinaryTree node)
+    public BinaryTree FindSuccessors(BinaryTree tree, BinaryTree node)
     {
         if (node.right != null)
         {
