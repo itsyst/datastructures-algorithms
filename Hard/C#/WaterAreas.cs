@@ -1,6 +1,6 @@
 using System;
 
-public class Program
+public class WaterAreas
 {
     public static int WaterArea(int[] heights)
     {
